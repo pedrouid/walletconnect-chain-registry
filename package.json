@@ -1,7 +1,8 @@
 {
-  "name": "script",
+  "name": "walletconnect-chain-registry",
   "version": "1.0.0",
-  "description": "",
+  "description": "Standarized multi-blockchain registry",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "verify": "node ./scripts/verify.js",
