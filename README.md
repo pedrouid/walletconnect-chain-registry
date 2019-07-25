@@ -4,7 +4,7 @@ Standarized multi-blockchain registry
 
 ## Examples
 
-````json
+````js
 // cosmos-hub2.json
 {
   "name": "Cosmos Hub",
