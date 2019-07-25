@@ -2,26 +2,51 @@
 
 Standarized multi-blockchain registry
 
-## Example
+## Examples
 
-```json
+````json
+// cosmos-hub2.json
+{
+  "name": "Cosmos Hub",
+  "rpc": [
+    "tcp://0.0.0.0:26657"
+  ],
+  "network": "cosmos-hub2",
+  "coins": [
+    {
+      "name": "Atom",
+      "symbol": "ATM",
+      "denom": "uatom",
+      "granularity": 9
+    }
+  ],
+  "interface": "cosmos",
+  "custom": {
+    "node_info": "http://178.128.246.154:1317/node_info",
+    "moniker": "cosmos-do-sentryz1"
+  }
+}
+
+// eip155-1.json
 {
   "name": "Ethereum Mainnet",
-  "chain": "ETH",
-  "network": "mainnet",
   "rpc": [
     "https://mainnet.infura.io/v3/${INFURA_API_KEY}",
     "https://api.mycryptoapi.com/eth"
   ],
-  "faucets": [],
-  "nativeCurrency": {
-    "name": "Ether",
-    "symbol": "ETH",
-    "decimals": 18
-  },
-  "infoURL": "https://ethereum.org",
-  "shortName": "eth",
-  "chainId": 1,
-  "networkId": 1
-}
-```
+  "network": "eip155-1",
+  "coins": [
+    {
+      "name": "Ether",
+      "symbol": "ETH",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "interface": "evm",
+  "custom": {
+    "chainId": 1,
+    "networkId": 1
+  }
+}```
+````
