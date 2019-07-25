@@ -1,10 +1,7 @@
 {
   "name": "Ethereum Mainnet",
-  "rpc": [
-    "https://mainnet.infura.io/v3/${INFURA_API_KEY}",
-    "https://api.mycryptoapi.com/eth"
-  ],
   "network": "eip155-1",
+  "interface": "evm",
   "coins": [
     {
       "name": "Ether",
@@ -13,7 +10,10 @@
       "granularity": 18
     }
   ],
-  "interface": "evm",
+  "rpc": [
+    "https://mainnet.infura.io/v3/${INFURA_API_KEY}",
+    "https://api.mycryptoapi.com/eth"
+  ],
   "custom": {
     "chainId": 1,
     "networkId": 1

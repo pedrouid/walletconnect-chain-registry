@@ -1,9 +1,7 @@
 {
   "name": "ThunderCore Mainnet",
-  "rpc": [
-    "https://mainnet-rpc.thundercore.com"
-  ],
   "network": "eip155-108",
+  "interface": "evm",
   "coins": [
     {
       "name": "ThunderCore Mainnet Ether",
@@ -12,7 +10,9 @@
       "granularity": 18
     }
   ],
-  "interface": "evm",
+  "rpc": [
+    "https://mainnet-rpc.thundercore.com"
+  ],
   "custom": {
     "chainId": 108,
     "networkId": 108

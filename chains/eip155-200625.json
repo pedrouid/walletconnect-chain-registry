@@ -1,9 +1,7 @@
 {
   "name": "Akaroma",
-  "rpc": [
-    "https://remote.akroma.io"
-  ],
   "network": "eip155-200625",
+  "interface": "evm",
   "coins": [
     {
       "name": "Akaroma Ether",
@@ -12,7 +10,9 @@
       "granularity": 18
     }
   ],
-  "interface": "evm",
+  "rpc": [
+    "https://remote.akroma.io"
+  ],
   "custom": {
     "chainId": 200625,
     "networkId": 200625

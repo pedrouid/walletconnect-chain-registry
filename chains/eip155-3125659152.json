@@ -1,9 +1,7 @@
 {
   "name": "Pirl",
-  "rpc": [
-    "https://wallrpc.pirl.io"
-  ],
   "network": "eip155-3125659152",
+  "interface": "evm",
   "coins": [
     {
       "name": "Pirl Ether",
@@ -12,7 +10,9 @@
       "granularity": 18
     }
   ],
-  "interface": "evm",
+  "rpc": [
+    "https://wallrpc.pirl.io"
+  ],
   "custom": {
     "chainId": 3125659152,
     "networkId": 3125659152

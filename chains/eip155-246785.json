@@ -1,9 +1,7 @@
 {
   "name": "ARTIS tau1",
-  "rpc": [
-    "https://rpc.tau1.artis.network"
-  ],
   "network": "eip155-246785",
+  "interface": "evm",
   "coins": [
     {
       "name": "ARTIS tau1 Ether",
@@ -12,7 +10,9 @@
       "granularity": 18
     }
   ],
-  "interface": "evm",
+  "rpc": [
+    "https://rpc.tau1.artis.network"
+  ],
   "custom": {
     "chainId": 246785,
     "networkId": 246785

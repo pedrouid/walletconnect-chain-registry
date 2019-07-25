@@ -1,9 +1,7 @@
 {
   "name": "Ethereum Testnet Rinkeby",
-  "rpc": [
-    "https://rinkeby.infura.io/v3/${INFURA_API_KEY}"
-  ],
   "network": "eip155-4",
+  "interface": "evm",
   "coins": [
     {
       "name": "Rinkeby Ether",
@@ -12,7 +10,9 @@
       "granularity": 18
     }
   ],
-  "interface": "evm",
+  "rpc": [
+    "https://rinkeby.infura.io/v3/${INFURA_API_KEY}"
+  ],
   "custom": {
     "chainId": 4,
     "networkId": 4

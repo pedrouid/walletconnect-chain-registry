@@ -1,10 +1,7 @@
 {
   "name": "Aquachain",
-  "rpc": [
-    "https://c.onical.org",
-    "https://tx.aquacha.in/api"
-  ],
   "network": "eip155-61717561",
+  "interface": "evm",
   "coins": [
     {
       "name": "Aquachain Ether",
@@ -13,7 +10,10 @@
       "granularity": 18
     }
   ],
-  "interface": "evm",
+  "rpc": [
+    "https://c.onical.org",
+    "https://tx.aquacha.in/api"
+  ],
   "custom": {
     "chainId": 61717561,
     "networkId": 61717561

@@ -1,10 +1,8 @@
 [
   {
     "name": "Cosmos Hub",
-    "rpc": [
-      "http://178.128.246.154:26657"
-    ],
     "network": "cosmos-hub2",
+    "interface": "cosmos",
     "coins": [
       {
         "name": "Atom",
@@ -13,7 +11,9 @@
         "granularity": 9
       }
     ],
-    "interface": "cosmos",
+    "rpc": [
+      "http://178.128.246.154:26657"
+    ],
     "custom": {
       "lcd": "http://178.128.246.154:1317",
       "moniker": "cosmos-do-sentryz1"
@@ -21,11 +21,8 @@
   },
   {
     "name": "Ethereum Mainnet",
-    "rpc": [
-      "https://mainnet.infura.io/v3/${INFURA_API_KEY}",
-      "https://api.mycryptoapi.com/eth"
-    ],
     "network": "eip155-1",
+    "interface": "evm",
     "coins": [
       {
         "name": "Ether",
@@ -34,7 +31,10 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [
+      "https://mainnet.infura.io/v3/${INFURA_API_KEY}",
+      "https://api.mycryptoapi.com/eth"
+    ],
     "custom": {
       "chainId": 1,
       "networkId": 1
@@ -42,10 +42,8 @@
   },
   {
     "name": "xDAI Chain",
-    "rpc": [
-      "https://dai.poa.network"
-    ],
     "network": "eip155-100",
+    "interface": "evm",
     "coins": [
       {
         "name": "xDAI",
@@ -54,7 +52,9 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [
+      "https://dai.poa.network"
+    ],
     "custom": {
       "chainId": 100,
       "networkId": 100
@@ -62,10 +62,8 @@
   },
   {
     "name": "EtherInc",
-    "rpc": [
-      "https://api.einc.io/jsonrpc/mainnet"
-    ],
     "network": "eip155-101",
+    "interface": "evm",
     "coins": [
       {
         "name": "EtherInc Ether",
@@ -74,7 +72,9 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [
+      "https://api.einc.io/jsonrpc/mainnet"
+    ],
     "custom": {
       "chainId": 101,
       "networkId": 1
@@ -82,10 +82,8 @@
   },
   {
     "name": "ThunderCore Mainnet",
-    "rpc": [
-      "https://mainnet-rpc.thundercore.com"
-    ],
     "network": "eip155-108",
+    "interface": "evm",
     "coins": [
       {
         "name": "ThunderCore Mainnet Ether",
@@ -94,7 +92,9 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [
+      "https://mainnet-rpc.thundercore.com"
+    ],
     "custom": {
       "chainId": 108,
       "networkId": 108
@@ -102,10 +102,8 @@
   },
   {
     "name": "Metadium Mainnet",
-    "rpc": [
-      "https://api.metadium.com/prod"
-    ],
     "network": "eip155-11",
+    "interface": "evm",
     "coins": [
       {
         "name": "Metadium Mainnet Ether",
@@ -114,7 +112,9 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [
+      "https://api.metadium.com/prod"
+    ],
     "custom": {
       "chainId": 11,
       "networkId": 11
@@ -122,11 +122,8 @@
   },
   {
     "name": "IPOS Network",
-    "rpc": [
-      "https://rpc.iposlab.com",
-      "https://rpc2.iposlab.com"
-    ],
     "network": "eip155-1122334455",
+    "interface": "evm",
     "coins": [
       {
         "name": "IPOS Network Ether",
@@ -135,7 +132,10 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [
+      "https://rpc.iposlab.com",
+      "https://rpc2.iposlab.com"
+    ],
     "custom": {
       "chainId": 1122334455,
       "networkId": 1122334455
@@ -143,10 +143,8 @@
   },
   {
     "name": "Metadium Testnet",
-    "rpc": [
-      "https://api.metadium.com/dev"
-    ],
     "network": "eip155-12",
+    "interface": "evm",
     "coins": [
       {
         "name": "Metadium Testnet Ether",
@@ -155,7 +153,9 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [
+      "https://api.metadium.com/dev"
+    ],
     "custom": {
       "chainId": 12,
       "networkId": 12
@@ -163,10 +163,8 @@
   },
   {
     "name": "Ether-1",
-    "rpc": [
-      "https://rpc.ether1.org"
-    ],
     "network": "eip155-1313114",
+    "interface": "evm",
     "coins": [
       {
         "name": "Ether-1 Ether",
@@ -175,7 +173,9 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [
+      "https://rpc.ether1.org"
+    ],
     "custom": {
       "chainId": 1313114,
       "networkId": 1313114
@@ -183,10 +183,8 @@
   },
   {
     "name": "PepChain Churchill",
-    "rpc": [
-      "https://churchill-rpc.pepchain.io"
-    ],
     "network": "eip155-13371337",
+    "interface": "evm",
     "coins": [
       {
         "name": "PepChain Churchill Ether",
@@ -195,7 +193,9 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [
+      "https://churchill-rpc.pepchain.io"
+    ],
     "custom": {
       "chainId": 13371337,
       "networkId": 13371337
@@ -203,10 +203,8 @@
   },
   {
     "name": "Lightstreams Testnet",
-    "rpc": [
-      "https://node.sirius.lightstreams.io"
-    ],
     "network": "eip155-162",
+    "interface": "evm",
     "coins": [
       {
         "name": "Lightstreams PHT",
@@ -215,7 +213,9 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [
+      "https://node.sirius.lightstreams.io"
+    ],
     "custom": {
       "chainId": 162,
       "networkId": 162
@@ -223,10 +223,8 @@
   },
   {
     "name": "Atheios",
-    "rpc": [
-      "https://wallet.atheios.com:8797"
-    ],
     "network": "eip155-1620",
+    "interface": "evm",
     "coins": [
       {
         "name": "Atheios Ether",
@@ -235,7 +233,9 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [
+      "https://wallet.atheios.com:8797"
+    ],
     "custom": {
       "chainId": 1620,
       "networkId": 11235813
@@ -243,10 +243,8 @@
   },
   {
     "name": "Lightstreams Mainnet",
-    "rpc": [
-      "https://node.mainnet.lightstreams.io"
-    ],
     "network": "eip155-163",
+    "interface": "evm",
     "coins": [
       {
         "name": "Lightstreams PHT",
@@ -255,7 +253,9 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [
+      "https://node.mainnet.lightstreams.io"
+    ],
     "custom": {
       "chainId": 163,
       "networkId": 163
@@ -263,10 +263,8 @@
   },
   {
     "name": "ThunderCore Testnet",
-    "rpc": [
-      "https://testnet-rpc.thundercore.com"
-    ],
     "network": "eip155-18",
+    "interface": "evm",
     "coins": [
       {
         "name": "ThunderCore Testnet Ether",
@@ -275,7 +273,9 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [
+      "https://testnet-rpc.thundercore.com"
+    ],
     "custom": {
       "chainId": 18,
       "networkId": 18
@@ -283,10 +283,8 @@
   },
   {
     "name": "IOLite",
-    "rpc": [
-      "https://net.iolite.io"
-    ],
     "network": "eip155-18289463",
+    "interface": "evm",
     "coins": [
       {
         "name": "IOLite Ether",
@@ -295,7 +293,9 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [
+      "https://net.iolite.io"
+    ],
     "custom": {
       "chainId": 18289463,
       "networkId": 18289463
@@ -303,10 +303,8 @@
   },
   {
     "name": "Teslafunds",
-    "rpc": [
-      "https://tsfapi.europool.me"
-    ],
     "network": "eip155-1856",
+    "interface": "evm",
     "coins": [
       {
         "name": "Teslafunds Ether",
@@ -315,7 +313,9 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [
+      "https://tsfapi.europool.me"
+    ],
     "custom": {
       "chainId": 1856,
       "networkId": 1
@@ -323,10 +323,8 @@
   },
   {
     "name": "EtherGem",
-    "rpc": [
-      "https://jsonrpc.egem.io/custom"
-    ],
     "network": "eip155-1987",
+    "interface": "evm",
     "coins": [
       {
         "name": "EtherGem Ether",
@@ -335,7 +333,9 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [
+      "https://jsonrpc.egem.io/custom"
+    ],
     "custom": {
       "chainId": 1987,
       "networkId": 1987
@@ -343,10 +343,8 @@
   },
   {
     "name": "Expanse Network",
-    "rpc": [
-      "https://node.expanse.tech"
-    ],
     "network": "eip155-2",
+    "interface": "evm",
     "coins": [
       {
         "name": "Expanse Network Ether",
@@ -355,7 +353,9 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [
+      "https://node.expanse.tech"
+    ],
     "custom": {
       "chainId": 2,
       "networkId": 1
@@ -363,10 +363,8 @@
   },
   {
     "name": "Akaroma",
-    "rpc": [
-      "https://remote.akroma.io"
-    ],
     "network": "eip155-200625",
+    "interface": "evm",
     "coins": [
       {
         "name": "Akaroma Ether",
@@ -375,7 +373,9 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [
+      "https://remote.akroma.io"
+    ],
     "custom": {
       "chainId": 200625,
       "networkId": 200625
@@ -383,10 +383,8 @@
   },
   {
     "name": "Webchain",
-    "rpc": [
-      "https://node1.webchain.network"
-    ],
     "network": "eip155-24484",
+    "interface": "evm",
     "coins": [
       {
         "name": "Webchain Ether",
@@ -395,7 +393,9 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [
+      "https://node1.webchain.network"
+    ],
     "custom": {
       "chainId": 24484,
       "networkId": 37129
@@ -403,10 +403,8 @@
   },
   {
     "name": "ARTIS sigma1",
-    "rpc": [
-      "https://rpc.sigma1.artis.network"
-    ],
     "network": "eip155-246529",
+    "interface": "evm",
     "coins": [
       {
         "name": "ARTIS sigma1 Ether",
@@ -415,7 +413,9 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [
+      "https://rpc.sigma1.artis.network"
+    ],
     "custom": {
       "chainId": 246529,
       "networkId": 246529
@@ -423,10 +423,8 @@
   },
   {
     "name": "ARTIS tau1",
-    "rpc": [
-      "https://rpc.tau1.artis.network"
-    ],
     "network": "eip155-246785",
+    "interface": "evm",
     "coins": [
       {
         "name": "ARTIS tau1 Ether",
@@ -435,7 +433,9 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [
+      "https://rpc.tau1.artis.network"
+    ],
     "custom": {
       "chainId": 246785,
       "networkId": 246785
@@ -443,10 +443,8 @@
   },
   {
     "name": "High Performance Blockchain",
-    "rpc": [
-      "https://node.hpb.blue"
-    ],
     "network": "eip155-269",
+    "interface": "evm",
     "coins": [
       {
         "name": "High Performance Blockchain Ether",
@@ -455,7 +453,9 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [
+      "https://node.hpb.blue"
+    ],
     "custom": {
       "chainId": 269,
       "networkId": 100
@@ -463,10 +463,8 @@
   },
   {
     "name": "Auxilium Network Mainnet",
-    "rpc": [
-      "https://rpc.auxilium.global"
-    ],
     "network": "eip155-28945486",
+    "interface": "evm",
     "coins": [
       {
         "name": "Auxilium coin",
@@ -475,7 +473,9 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [
+      "https://rpc.auxilium.global"
+    ],
     "custom": {
       "chainId": 28945486,
       "networkId": 28945486
@@ -483,10 +483,8 @@
   },
   {
     "name": "Ethereum Testnet Ropsten",
-    "rpc": [
-      "https://ropsten.infura.io/v3/${INFURA_API_KEY}"
-    ],
     "network": "eip155-3",
+    "interface": "evm",
     "coins": [
       {
         "name": "Ropsten Ether",
@@ -495,7 +493,9 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [
+      "https://ropsten.infura.io/v3/${INFURA_API_KEY}"
+    ],
     "custom": {
       "chainId": 3,
       "networkId": 3
@@ -503,11 +503,8 @@
   },
   {
     "name": "RSK Mainnet",
-    "rpc": [
-      "https://public-node.rsk.co",
-      "https://mycrypto.rsk.co"
-    ],
     "network": "eip155-30",
+    "interface": "evm",
     "coins": [
       {
         "name": "RSK Mainnet Ether",
@@ -516,7 +513,10 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [
+      "https://public-node.rsk.co",
+      "https://mycrypto.rsk.co"
+    ],
     "custom": {
       "chainId": 30,
       "networkId": 30
@@ -524,11 +524,8 @@
   },
   {
     "name": "RSK Testnet",
-    "rpc": [
-      "https://public-node.testnet.rsk.co",
-      "https://mycrypto.testnet.rsk.co"
-    ],
     "network": "eip155-31",
+    "interface": "evm",
     "coins": [
       {
         "name": "RSK Testnet Ether",
@@ -537,7 +534,10 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [
+      "https://public-node.testnet.rsk.co",
+      "https://mycrypto.testnet.rsk.co"
+    ],
     "custom": {
       "chainId": 31,
       "networkId": 31
@@ -545,10 +545,8 @@
   },
   {
     "name": "Ethersocial Network",
-    "rpc": [
-      "https://api.esn.gonspool.com"
-    ],
     "network": "eip155-31102",
+    "interface": "evm",
     "coins": [
       {
         "name": "Ethersocial Network Ether",
@@ -557,7 +555,9 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [
+      "https://api.esn.gonspool.com"
+    ],
     "custom": {
       "chainId": 31102,
       "networkId": 1
@@ -565,10 +565,8 @@
   },
   {
     "name": "Pirl",
-    "rpc": [
-      "https://wallrpc.pirl.io"
-    ],
     "network": "eip155-3125659152",
+    "interface": "evm",
     "coins": [
       {
         "name": "Pirl Ether",
@@ -577,7 +575,9 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [
+      "https://wallrpc.pirl.io"
+    ],
     "custom": {
       "chainId": 3125659152,
       "networkId": 3125659152
@@ -585,10 +585,8 @@
   },
   {
     "name": "Lisinski",
-    "rpc": [
-      "https://rpc-bitfalls1.lisinski.online"
-    ],
     "network": "eip155-385",
+    "interface": "evm",
     "coins": [
       {
         "name": "Lisinski Ether",
@@ -597,7 +595,9 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [
+      "https://rpc-bitfalls1.lisinski.online"
+    ],
     "custom": {
       "chainId": 385,
       "networkId": 385
@@ -605,10 +605,8 @@
   },
   {
     "name": "Ethereum Testnet Rinkeby",
-    "rpc": [
-      "https://rinkeby.infura.io/v3/${INFURA_API_KEY}"
-    ],
     "network": "eip155-4",
+    "interface": "evm",
     "coins": [
       {
         "name": "Rinkeby Ether",
@@ -617,7 +615,9 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [
+      "https://rinkeby.infura.io/v3/${INFURA_API_KEY}"
+    ],
     "custom": {
       "chainId": 4,
       "networkId": 4
@@ -625,10 +625,8 @@
   },
   {
     "name": "Ethereum Testnet Kovan",
-    "rpc": [
-      "https://kovan.infura.io/v3/${INFURA_API_KEY}"
-    ],
     "network": "eip155-42",
+    "interface": "evm",
     "coins": [
       {
         "name": "Kovan Ether",
@@ -637,7 +635,9 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [
+      "https://kovan.infura.io/v3/${INFURA_API_KEY}"
+    ],
     "custom": {
       "chainId": 42,
       "networkId": 42
@@ -645,12 +645,8 @@
   },
   {
     "name": "Ethereum Testnet Görli",
-    "rpc": [
-      "https://rpc.goerli.mudit.blog/",
-      "https://rpc.slock.it/goerli ",
-      "https://goerli.prylabs.net/"
-    ],
     "network": "eip155-5",
+    "interface": "evm",
     "coins": [
       {
         "name": "Görli Ether",
@@ -659,7 +655,11 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [
+      "https://rpc.goerli.mudit.blog/",
+      "https://rpc.slock.it/goerli ",
+      "https://goerli.prylabs.net/"
+    ],
     "custom": {
       "chainId": 5,
       "networkId": 5
@@ -667,8 +667,8 @@
   },
   {
     "name": "Ethereum Classic Testnet Kotti",
-    "rpc": [],
     "network": "eip155-6",
+    "interface": "evm",
     "coins": [
       {
         "name": "Kotti Ether",
@@ -677,7 +677,7 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [],
     "custom": {
       "chainId": 6,
       "networkId": 6
@@ -685,10 +685,8 @@
   },
   {
     "name": "GoChain",
-    "rpc": [
-      "https://rpc.gochain.io"
-    ],
     "network": "eip155-60",
+    "interface": "evm",
     "coins": [
       {
         "name": "GoChain Ether",
@@ -697,7 +695,9 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [
+      "https://rpc.gochain.io"
+    ],
     "custom": {
       "chainId": 60,
       "networkId": 60
@@ -705,10 +705,8 @@
   },
   {
     "name": "Ethereum Classic Mainnet",
-    "rpc": [
-      "https://ethereumclassic.network"
-    ],
     "network": "eip155-61",
+    "interface": "evm",
     "coins": [
       {
         "name": "Ethereum Classic Ether",
@@ -717,7 +715,9 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [
+      "https://ethereumclassic.network"
+    ],
     "custom": {
       "chainId": 61,
       "networkId": 1
@@ -725,11 +725,8 @@
   },
   {
     "name": "Aquachain",
-    "rpc": [
-      "https://c.onical.org",
-      "https://tx.aquacha.in/api"
-    ],
     "network": "eip155-61717561",
+    "interface": "evm",
     "coins": [
       {
         "name": "Aquachain Ether",
@@ -738,7 +735,10 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [
+      "https://c.onical.org",
+      "https://tx.aquacha.in/api"
+    ],
     "custom": {
       "chainId": 61717561,
       "networkId": 61717561
@@ -746,8 +746,8 @@
   },
   {
     "name": "Ethereum Classic Testnet",
-    "rpc": [],
     "network": "eip155-62",
+    "interface": "evm",
     "coins": [
       {
         "name": "Ethereum Classic Testnet Ether",
@@ -756,7 +756,7 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [],
     "custom": {
       "chainId": 62,
       "networkId": 2
@@ -764,10 +764,8 @@
   },
   {
     "name": "Ellaism",
-    "rpc": [
-      "https://jsonrpc.ellaism.org"
-    ],
     "network": "eip155-64",
+    "interface": "evm",
     "coins": [
       {
         "name": "Ellaism Ether",
@@ -776,7 +774,9 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [
+      "https://jsonrpc.ellaism.org"
+    ],
     "custom": {
       "chainId": 64,
       "networkId": 64
@@ -784,10 +784,8 @@
   },
   {
     "name": "Mix",
-    "rpc": [
-      "https://rpc2.mix-blockchain.org:8647"
-    ],
     "network": "eip155-76",
+    "interface": "evm",
     "coins": [
       {
         "name": "Mix Ether",
@@ -796,7 +794,9 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [
+      "https://rpc2.mix-blockchain.org:8647"
+    ],
     "custom": {
       "chainId": 76,
       "networkId": 76
@@ -804,10 +804,8 @@
   },
   {
     "name": "POA Network Sokol",
-    "rpc": [
-      "https://sokol.poa.network"
-    ],
     "network": "eip155-77",
+    "interface": "evm",
     "coins": [
       {
         "name": "POA Sokol Ether",
@@ -816,7 +814,9 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [
+      "https://sokol.poa.network"
+    ],
     "custom": {
       "chainId": 77,
       "networkId": 77
@@ -824,10 +824,8 @@
   },
   {
     "name": "Musicoin",
-    "rpc": [
-      "https://mewapi.musicoin.tw"
-    ],
     "network": "eip155-7762959",
+    "interface": "evm",
     "coins": [
       {
         "name": "Musicoin",
@@ -836,7 +834,9 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [
+      "https://mewapi.musicoin.tw"
+    ],
     "custom": {
       "chainId": 7762959,
       "networkId": 7762959
@@ -844,10 +844,8 @@
   },
   {
     "name": "Ubiq Network Mainnet",
-    "rpc": [
-      "https://pyrus2.ubiqscan.io"
-    ],
     "network": "eip155-8",
+    "interface": "evm",
     "coins": [
       {
         "name": "Ubiq Ether",
@@ -856,7 +854,9 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [
+      "https://pyrus2.ubiqscan.io"
+    ],
     "custom": {
       "chainId": 8,
       "networkId": 1
@@ -864,10 +864,8 @@
   },
   {
     "name": "Callisto Mainnet",
-    "rpc": [
-      "https://clo-geth.0xinfra.com"
-    ],
     "network": "eip155-820",
+    "interface": "evm",
     "coins": [
       {
         "name": "Callisto Mainnet Ether",
@@ -876,7 +874,9 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [
+      "https://clo-geth.0xinfra.com"
+    ],
     "custom": {
       "chainId": 820,
       "networkId": 1
@@ -884,8 +884,8 @@
   },
   {
     "name": "Callisto Testnet",
-    "rpc": [],
     "network": "eip155-821",
+    "interface": "evm",
     "coins": [
       {
         "name": "Callisto Testnet Ether",
@@ -894,7 +894,7 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [],
     "custom": {
       "chainId": 821,
       "networkId": 2
@@ -902,10 +902,8 @@
   },
   {
     "name": "TomoChain",
-    "rpc": [
-      "https://core.tomocoin.io"
-    ],
     "network": "eip155-88",
+    "interface": "evm",
     "coins": [
       {
         "name": "TomoChain Ether",
@@ -914,7 +912,9 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [
+      "https://core.tomocoin.io"
+    ],
     "custom": {
       "chainId": 88,
       "networkId": 88
@@ -922,8 +922,8 @@
   },
   {
     "name": "Ubiq Network Testnet",
-    "rpc": [],
     "network": "eip155-9",
+    "interface": "evm",
     "coins": [
       {
         "name": "Ubiq Testnet Ether",
@@ -932,7 +932,7 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [],
     "custom": {
       "chainId": 9,
       "networkId": 2
@@ -940,11 +940,8 @@
   },
   {
     "name": "Nepal Blockchain Network",
-    "rpc": [
-      "https://api.nepalblockchain.dev",
-      "https://api.nepalblockchain.network"
-    ],
     "network": "eip155-977",
+    "interface": "evm",
     "coins": [
       {
         "name": "Nepal Blockchain Network Ether",
@@ -953,7 +950,10 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [
+      "https://api.nepalblockchain.dev",
+      "https://api.nepalblockchain.network"
+    ],
     "custom": {
       "chainId": 977,
       "networkId": 977
@@ -961,10 +961,8 @@
   },
   {
     "name": "POA Network Core",
-    "rpc": [
-      "https://core.poa.network"
-    ],
     "network": "eip155-99",
+    "interface": "evm",
     "coins": [
       {
         "name": "POA Network Core Ether",
@@ -973,7 +971,9 @@
         "granularity": 18
       }
     ],
-    "interface": "evm",
+    "rpc": [
+      "https://core.poa.network"
+    ],
     "custom": {
       "chainId": 99,
       "networkId": 99

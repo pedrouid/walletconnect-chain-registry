@@ -1,9 +1,7 @@
 {
   "name": "Webchain",
-  "rpc": [
-    "https://node1.webchain.network"
-  ],
   "network": "eip155-24484",
+  "interface": "evm",
   "coins": [
     {
       "name": "Webchain Ether",
@@ -12,7 +10,9 @@
       "granularity": 18
     }
   ],
-  "interface": "evm",
+  "rpc": [
+    "https://node1.webchain.network"
+  ],
   "custom": {
     "chainId": 24484,
     "networkId": 37129

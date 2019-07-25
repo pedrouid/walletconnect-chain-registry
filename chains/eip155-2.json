@@ -1,9 +1,7 @@
 {
   "name": "Expanse Network",
-  "rpc": [
-    "https://node.expanse.tech"
-  ],
   "network": "eip155-2",
+  "interface": "evm",
   "coins": [
     {
       "name": "Expanse Network Ether",
@@ -12,7 +10,9 @@
       "granularity": 18
     }
   ],
-  "interface": "evm",
+  "rpc": [
+    "https://node.expanse.tech"
+  ],
   "custom": {
     "chainId": 2,
     "networkId": 1

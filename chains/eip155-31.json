@@ -1,10 +1,7 @@
 {
   "name": "RSK Testnet",
-  "rpc": [
-    "https://public-node.testnet.rsk.co",
-    "https://mycrypto.testnet.rsk.co"
-  ],
   "network": "eip155-31",
+  "interface": "evm",
   "coins": [
     {
       "name": "RSK Testnet Ether",
@@ -13,7 +10,10 @@
       "granularity": 18
     }
   ],
-  "interface": "evm",
+  "rpc": [
+    "https://public-node.testnet.rsk.co",
+    "https://mycrypto.testnet.rsk.co"
+  ],
   "custom": {
     "chainId": 31,
     "networkId": 31

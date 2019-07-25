@@ -1,9 +1,7 @@
 {
   "name": "Metadium Mainnet",
-  "rpc": [
-    "https://api.metadium.com/prod"
-  ],
   "network": "eip155-11",
+  "interface": "evm",
   "coins": [
     {
       "name": "Metadium Mainnet Ether",
@@ -12,7 +10,9 @@
       "granularity": 18
     }
   ],
-  "interface": "evm",
+  "rpc": [
+    "https://api.metadium.com/prod"
+  ],
   "custom": {
     "chainId": 11,
     "networkId": 11

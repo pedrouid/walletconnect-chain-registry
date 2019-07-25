@@ -1,9 +1,7 @@
 {
   "name": "Lightstreams Testnet",
-  "rpc": [
-    "https://node.sirius.lightstreams.io"
-  ],
   "network": "eip155-162",
+  "interface": "evm",
   "coins": [
     {
       "name": "Lightstreams PHT",
@@ -12,7 +10,9 @@
       "granularity": 18
     }
   ],
-  "interface": "evm",
+  "rpc": [
+    "https://node.sirius.lightstreams.io"
+  ],
   "custom": {
     "chainId": 162,
     "networkId": 162

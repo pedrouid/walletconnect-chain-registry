@@ -1,9 +1,7 @@
 {
   "name": "POA Network Core",
-  "rpc": [
-    "https://core.poa.network"
-  ],
   "network": "eip155-99",
+  "interface": "evm",
   "coins": [
     {
       "name": "POA Network Core Ether",
@@ -12,7 +10,9 @@
       "granularity": 18
     }
   ],
-  "interface": "evm",
+  "rpc": [
+    "https://core.poa.network"
+  ],
   "custom": {
     "chainId": 99,
     "networkId": 99

@@ -1,10 +1,7 @@
 {
   "name": "IPOS Network",
-  "rpc": [
-    "https://rpc.iposlab.com",
-    "https://rpc2.iposlab.com"
-  ],
   "network": "eip155-1122334455",
+  "interface": "evm",
   "coins": [
     {
       "name": "IPOS Network Ether",
@@ -13,7 +10,10 @@
       "granularity": 18
     }
   ],
-  "interface": "evm",
+  "rpc": [
+    "https://rpc.iposlab.com",
+    "https://rpc2.iposlab.com"
+  ],
   "custom": {
     "chainId": 1122334455,
     "networkId": 1122334455

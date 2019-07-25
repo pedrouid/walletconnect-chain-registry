@@ -1,9 +1,7 @@
 {
   "name": "PepChain Churchill",
-  "rpc": [
-    "https://churchill-rpc.pepchain.io"
-  ],
   "network": "eip155-13371337",
+  "interface": "evm",
   "coins": [
     {
       "name": "PepChain Churchill Ether",
@@ -12,7 +10,9 @@
       "granularity": 18
     }
   ],
-  "interface": "evm",
+  "rpc": [
+    "https://churchill-rpc.pepchain.io"
+  ],
   "custom": {
     "chainId": 13371337,
     "networkId": 13371337

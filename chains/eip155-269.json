@@ -1,9 +1,7 @@
 {
   "name": "High Performance Blockchain",
-  "rpc": [
-    "https://node.hpb.blue"
-  ],
   "network": "eip155-269",
+  "interface": "evm",
   "coins": [
     {
       "name": "High Performance Blockchain Ether",
@@ -12,7 +10,9 @@
       "granularity": 18
     }
   ],
-  "interface": "evm",
+  "rpc": [
+    "https://node.hpb.blue"
+  ],
   "custom": {
     "chainId": 269,
     "networkId": 100

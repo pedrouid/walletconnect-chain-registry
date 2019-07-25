@@ -1,9 +1,7 @@
 {
   "name": "Ubiq Network Mainnet",
-  "rpc": [
-    "https://pyrus2.ubiqscan.io"
-  ],
   "network": "eip155-8",
+  "interface": "evm",
   "coins": [
     {
       "name": "Ubiq Ether",
@@ -12,7 +10,9 @@
       "granularity": 18
     }
   ],
-  "interface": "evm",
+  "rpc": [
+    "https://pyrus2.ubiqscan.io"
+  ],
   "custom": {
     "chainId": 8,
     "networkId": 1

@@ -1,9 +1,7 @@
 {
   "name": "TomoChain",
-  "rpc": [
-    "https://core.tomocoin.io"
-  ],
   "network": "eip155-88",
+  "interface": "evm",
   "coins": [
     {
       "name": "TomoChain Ether",
@@ -12,7 +10,9 @@
       "granularity": 18
     }
   ],
-  "interface": "evm",
+  "rpc": [
+    "https://core.tomocoin.io"
+  ],
   "custom": {
     "chainId": 88,
     "networkId": 88

@@ -8,10 +8,8 @@ Standarized multi-blockchain registry
 // cosmos-hub2.json
 {
   "name": "Cosmos Hub",
-  "rpc": [
-    "http://178.128.246.154:26657"
-  ],
   "network": "cosmos-hub2",
+  "interface": "cosmos",
   "coins": [
     {
       "name": "Atom",
@@ -20,7 +18,9 @@ Standarized multi-blockchain registry
       "granularity": 9
     }
   ],
-  "interface": "cosmos",
+  "rpc": [
+    "http://178.128.246.154:26657"
+  ],
   "custom": {
     "lcd": "http://178.128.246.154:1317",
     "moniker": "cosmos-do-sentryz1"
@@ -30,11 +30,8 @@ Standarized multi-blockchain registry
 // eip155-1.json
 {
   "name": "Ethereum Mainnet",
-  "rpc": [
-    "https://mainnet.infura.io/v3/${INFURA_API_KEY}",
-    "https://api.mycryptoapi.com/eth"
-  ],
   "network": "eip155-1",
+  "interface": "evm",
   "coins": [
     {
       "name": "Ether",
@@ -43,7 +40,10 @@ Standarized multi-blockchain registry
       "granularity": 18
     }
   ],
-  "interface": "evm",
+  "rpc": [
+    "https://mainnet.infura.io/v3/${INFURA_API_KEY}",
+    "https://api.mycryptoapi.com/eth"
+  ],
   "custom": {
     "chainId": 1,
     "networkId": 1

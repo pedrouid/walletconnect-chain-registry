@@ -1,9 +1,7 @@
 {
   "name": "GoChain",
-  "rpc": [
-    "https://rpc.gochain.io"
-  ],
   "network": "eip155-60",
+  "interface": "evm",
   "coins": [
     {
       "name": "GoChain Ether",
@@ -12,7 +10,9 @@
       "granularity": 18
     }
   ],
-  "interface": "evm",
+  "rpc": [
+    "https://rpc.gochain.io"
+  ],
   "custom": {
     "chainId": 60,
     "networkId": 60

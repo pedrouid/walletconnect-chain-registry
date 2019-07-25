@@ -1,9 +1,7 @@
 {
   "name": "Ethersocial Network",
-  "rpc": [
-    "https://api.esn.gonspool.com"
-  ],
   "network": "eip155-31102",
+  "interface": "evm",
   "coins": [
     {
       "name": "Ethersocial Network Ether",
@@ -12,7 +10,9 @@
       "granularity": 18
     }
   ],
-  "interface": "evm",
+  "rpc": [
+    "https://api.esn.gonspool.com"
+  ],
   "custom": {
     "chainId": 31102,
     "networkId": 1

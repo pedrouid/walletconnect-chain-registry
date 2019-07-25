@@ -1,9 +1,7 @@
 {
   "name": "EtherGem",
-  "rpc": [
-    "https://jsonrpc.egem.io/custom"
-  ],
   "network": "eip155-1987",
+  "interface": "evm",
   "coins": [
     {
       "name": "EtherGem Ether",
@@ -12,7 +10,9 @@
       "granularity": 18
     }
   ],
-  "interface": "evm",
+  "rpc": [
+    "https://jsonrpc.egem.io/custom"
+  ],
   "custom": {
     "chainId": 1987,
     "networkId": 1987

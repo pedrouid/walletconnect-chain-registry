@@ -1,11 +1,7 @@
 {
   "name": "Ethereum Testnet Görli",
-  "rpc": [
-    "https://rpc.goerli.mudit.blog/",
-    "https://rpc.slock.it/goerli ",
-    "https://goerli.prylabs.net/"
-  ],
   "network": "eip155-5",
+  "interface": "evm",
   "coins": [
     {
       "name": "Görli Ether",
@@ -14,7 +10,11 @@
       "granularity": 18
     }
   ],
-  "interface": "evm",
+  "rpc": [
+    "https://rpc.goerli.mudit.blog/",
+    "https://rpc.slock.it/goerli ",
+    "https://goerli.prylabs.net/"
+  ],
   "custom": {
     "chainId": 5,
     "networkId": 5

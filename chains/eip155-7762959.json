@@ -1,9 +1,7 @@
 {
   "name": "Musicoin",
-  "rpc": [
-    "https://mewapi.musicoin.tw"
-  ],
   "network": "eip155-7762959",
+  "interface": "evm",
   "coins": [
     {
       "name": "Musicoin",
@@ -12,7 +10,9 @@
       "granularity": 18
     }
   ],
-  "interface": "evm",
+  "rpc": [
+    "https://mewapi.musicoin.tw"
+  ],
   "custom": {
     "chainId": 7762959,
     "networkId": 7762959

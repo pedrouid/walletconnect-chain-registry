@@ -1,9 +1,7 @@
 {
   "name": "IOLite",
-  "rpc": [
-    "https://net.iolite.io"
-  ],
   "network": "eip155-18289463",
+  "interface": "evm",
   "coins": [
     {
       "name": "IOLite Ether",
@@ -12,7 +10,9 @@
       "granularity": 18
     }
   ],
-  "interface": "evm",
+  "rpc": [
+    "https://net.iolite.io"
+  ],
   "custom": {
     "chainId": 18289463,
     "networkId": 18289463

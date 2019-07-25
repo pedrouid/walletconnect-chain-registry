@@ -1,10 +1,7 @@
 {
   "name": "RSK Mainnet",
-  "rpc": [
-    "https://public-node.rsk.co",
-    "https://mycrypto.rsk.co"
-  ],
   "network": "eip155-30",
+  "interface": "evm",
   "coins": [
     {
       "name": "RSK Mainnet Ether",
@@ -13,7 +10,10 @@
       "granularity": 18
     }
   ],
-  "interface": "evm",
+  "rpc": [
+    "https://public-node.rsk.co",
+    "https://mycrypto.rsk.co"
+  ],
   "custom": {
     "chainId": 30,
     "networkId": 30

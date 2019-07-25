@@ -1,9 +1,7 @@
 {
   "name": "Ethereum Testnet Ropsten",
-  "rpc": [
-    "https://ropsten.infura.io/v3/${INFURA_API_KEY}"
-  ],
   "network": "eip155-3",
+  "interface": "evm",
   "coins": [
     {
       "name": "Ropsten Ether",
@@ -12,7 +10,9 @@
       "granularity": 18
     }
   ],
-  "interface": "evm",
+  "rpc": [
+    "https://ropsten.infura.io/v3/${INFURA_API_KEY}"
+  ],
   "custom": {
     "chainId": 3,
     "networkId": 3

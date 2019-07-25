@@ -1,9 +1,7 @@
 {
   "name": "Ethereum Classic Mainnet",
-  "rpc": [
-    "https://ethereumclassic.network"
-  ],
   "network": "eip155-61",
+  "interface": "evm",
   "coins": [
     {
       "name": "Ethereum Classic Ether",
@@ -12,7 +10,9 @@
       "granularity": 18
     }
   ],
-  "interface": "evm",
+  "rpc": [
+    "https://ethereumclassic.network"
+  ],
   "custom": {
     "chainId": 61,
     "networkId": 1

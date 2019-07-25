@@ -1,9 +1,7 @@
 {
   "name": "xDAI Chain",
-  "rpc": [
-    "https://dai.poa.network"
-  ],
   "network": "eip155-100",
+  "interface": "evm",
   "coins": [
     {
       "name": "xDAI",
@@ -12,7 +10,9 @@
       "granularity": 18
     }
   ],
-  "interface": "evm",
+  "rpc": [
+    "https://dai.poa.network"
+  ],
   "custom": {
     "chainId": 100,
     "networkId": 100

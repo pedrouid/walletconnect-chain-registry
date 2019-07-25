@@ -1,7 +1,7 @@
 {
   "name": "Ethereum Classic Testnet Kotti",
-  "rpc": [],
   "network": "eip155-6",
+  "interface": "evm",
   "coins": [
     {
       "name": "Kotti Ether",
@@ -10,7 +10,7 @@
       "granularity": 18
     }
   ],
-  "interface": "evm",
+  "rpc": [],
   "custom": {
     "chainId": 6,
     "networkId": 6

@@ -1,9 +1,7 @@
 {
   "name": "Callisto Mainnet",
-  "rpc": [
-    "https://clo-geth.0xinfra.com"
-  ],
   "network": "eip155-820",
+  "interface": "evm",
   "coins": [
     {
       "name": "Callisto Mainnet Ether",
@@ -12,7 +10,9 @@
       "granularity": 18
     }
   ],
-  "interface": "evm",
+  "rpc": [
+    "https://clo-geth.0xinfra.com"
+  ],
   "custom": {
     "chainId": 820,
     "networkId": 1

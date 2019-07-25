@@ -1,10 +1,7 @@
 {
   "name": "Nepal Blockchain Network",
-  "rpc": [
-    "https://api.nepalblockchain.dev",
-    "https://api.nepalblockchain.network"
-  ],
   "network": "eip155-977",
+  "interface": "evm",
   "coins": [
     {
       "name": "Nepal Blockchain Network Ether",
@@ -13,7 +10,10 @@
       "granularity": 18
     }
   ],
-  "interface": "evm",
+  "rpc": [
+    "https://api.nepalblockchain.dev",
+    "https://api.nepalblockchain.network"
+  ],
   "custom": {
     "chainId": 977,
     "networkId": 977

@@ -1,9 +1,7 @@
 {
   "name": "Teslafunds",
-  "rpc": [
-    "https://tsfapi.europool.me"
-  ],
   "network": "eip155-1856",
+  "interface": "evm",
   "coins": [
     {
       "name": "Teslafunds Ether",
@@ -12,7 +10,9 @@
       "granularity": 18
     }
   ],
-  "interface": "evm",
+  "rpc": [
+    "https://tsfapi.europool.me"
+  ],
   "custom": {
     "chainId": 1856,
     "networkId": 1

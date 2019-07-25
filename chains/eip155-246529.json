@@ -1,9 +1,7 @@
 {
   "name": "ARTIS sigma1",
-  "rpc": [
-    "https://rpc.sigma1.artis.network"
-  ],
   "network": "eip155-246529",
+  "interface": "evm",
   "coins": [
     {
       "name": "ARTIS sigma1 Ether",
@@ -12,7 +10,9 @@
       "granularity": 18
     }
   ],
-  "interface": "evm",
+  "rpc": [
+    "https://rpc.sigma1.artis.network"
+  ],
   "custom": {
     "chainId": 246529,
     "networkId": 246529

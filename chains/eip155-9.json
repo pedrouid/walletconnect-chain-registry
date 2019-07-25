@@ -1,7 +1,7 @@
 {
   "name": "Ubiq Network Testnet",
-  "rpc": [],
   "network": "eip155-9",
+  "interface": "evm",
   "coins": [
     {
       "name": "Ubiq Testnet Ether",
@@ -10,7 +10,7 @@
       "granularity": 18
     }
   ],
-  "interface": "evm",
+  "rpc": [],
   "custom": {
     "chainId": 9,
     "networkId": 2

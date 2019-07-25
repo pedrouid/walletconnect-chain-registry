@@ -1,9 +1,7 @@
 {
   "name": "Lisinski",
-  "rpc": [
-    "https://rpc-bitfalls1.lisinski.online"
-  ],
   "network": "eip155-385",
+  "interface": "evm",
   "coins": [
     {
       "name": "Lisinski Ether",
@@ -12,7 +10,9 @@
       "granularity": 18
     }
   ],
-  "interface": "evm",
+  "rpc": [
+    "https://rpc-bitfalls1.lisinski.online"
+  ],
   "custom": {
     "chainId": 385,
     "networkId": 385

@@ -1,9 +1,7 @@
 {
   "name": "Mix",
-  "rpc": [
-    "https://rpc2.mix-blockchain.org:8647"
-  ],
   "network": "eip155-76",
+  "interface": "evm",
   "coins": [
     {
       "name": "Mix Ether",
@@ -12,7 +10,9 @@
       "granularity": 18
     }
   ],
-  "interface": "evm",
+  "rpc": [
+    "https://rpc2.mix-blockchain.org:8647"
+  ],
   "custom": {
     "chainId": 76,
     "networkId": 76
