@@ -1,4 +1,5 @@
 {
+  "did": "did:ethr:eip155-99",
   "name": "POA Network Core",
   "network": "eip155-99",
   "interface": "evm",

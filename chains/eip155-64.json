@@ -1,4 +1,5 @@
 {
+  "did": "did:ethr:eip155-64",
   "name": "Ellaism",
   "network": "eip155-64",
   "interface": "evm",

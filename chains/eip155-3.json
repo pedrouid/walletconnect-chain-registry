@@ -1,4 +1,5 @@
 {
+  "did": "did:ethr:eip155-3",
   "name": "Ethereum Testnet Ropsten",
   "network": "eip155-3",
   "interface": "evm",

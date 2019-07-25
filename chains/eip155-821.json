@@ -1,4 +1,5 @@
 {
+  "did": "did:ethr:eip155-821",
   "name": "Callisto Testnet",
   "network": "eip155-821",
   "interface": "evm",

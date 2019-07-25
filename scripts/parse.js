@@ -8,7 +8,8 @@ const {
   tableLog,
   stat,
   writeJson,
-  sortBy
+  sortBy,
+  formatDid
 } = require('./shared')
 
 fs.readdir(CHAINS_DIRECTORY, async function (err, files) {
@@ -37,6 +38,7 @@ fs.readdir(CHAINS_DIRECTORY, async function (err, files) {
         }))
 
         let newJson = {
+          did: formatDid(json),
           name: json.name,
           network: json.network,
           interface: json.interface,
@@ -53,7 +55,7 @@ fs.readdir(CHAINS_DIRECTORY, async function (err, files) {
   )
 
   const resultFilePath = path.join(ROOT_DIRECTORY, 'chains.json')
-  const resultJson = sortBy(result, ['network'])
+  const resultJson = sortBy(result, ['did'])
   await writeJson(resultFilePath, resultJson)
 
   stopSpinner()

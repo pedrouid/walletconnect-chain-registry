@@ -1,4 +1,5 @@
 {
+  "did": "did:ethr:eip155-385",
   "name": "Lisinski",
   "network": "eip155-385",
   "interface": "evm",

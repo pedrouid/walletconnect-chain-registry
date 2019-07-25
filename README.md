@@ -7,6 +7,7 @@ Standarized multi-blockchain registry
 ```js
 // cosmos-hub2.json
 {
+  "did": "did:cosmos:cosmos-hub2",
   "name": "Cosmos Hub",
   "network": "cosmos-hub2",
   "interface": "cosmos",
@@ -29,6 +30,7 @@ Standarized multi-blockchain registry
 
 // eip155-1.json
 {
+  "did": "did:ethr:eip155-1",
   "name": "Ethereum Mainnet",
   "network": "eip155-1",
   "interface": "evm",

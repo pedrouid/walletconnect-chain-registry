@@ -1,4 +1,5 @@
 {
+  "did": "did:ethr:eip155-1122334455",
   "name": "IPOS Network",
   "network": "eip155-1122334455",
   "interface": "evm",

@@ -1,4 +1,5 @@
 {
+  "did": "did:ethr:eip155-24484",
   "name": "Webchain",
   "network": "eip155-24484",
   "interface": "evm",

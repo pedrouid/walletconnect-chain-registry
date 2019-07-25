@@ -1,4 +1,5 @@
 {
+  "did": "did:ethr:eip155-31",
   "name": "RSK Testnet",
   "network": "eip155-31",
   "interface": "evm",

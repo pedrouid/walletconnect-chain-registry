@@ -171,6 +171,27 @@ async function verifyJson (json) {
   return json
 }
 
+function formatDid (json) {
+  let method = ''
+  switch (json.interface) {
+    case 'evm':
+      method = 'ethr'
+      break
+    case 'cosmos':
+      method = 'cosmos'
+      break
+    default:
+      break
+  }
+  if (!method) {
+    throw new Error(
+      `${json.name} doesn't have DID method for ${json.interface} interface`
+    )
+  }
+  const did = `did:${method}:${json.network}`
+  return did
+}
+
 module.exports = {
   ROOT_DIRECTORY,
   CHAINS_DIRECTORY,
@@ -190,5 +211,6 @@ module.exports = {
   getChainId,
   queryMulti,
   verifyJson,
-  sortBy
+  sortBy,
+  formatDid
 }

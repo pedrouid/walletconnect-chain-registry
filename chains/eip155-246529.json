@@ -1,4 +1,5 @@
 {
+  "did": "did:ethr:eip155-246529",
   "name": "ARTIS sigma1",
   "network": "eip155-246529",
   "interface": "evm",

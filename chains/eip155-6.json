@@ -1,4 +1,5 @@
 {
+  "did": "did:ethr:eip155-6",
   "name": "Ethereum Classic Testnet Kotti",
   "network": "eip155-6",
   "interface": "evm",

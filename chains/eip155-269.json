@@ -1,4 +1,5 @@
 {
+  "did": "did:ethr:eip155-269",
   "name": "High Performance Blockchain",
   "network": "eip155-269",
   "interface": "evm",

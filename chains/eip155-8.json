@@ -1,4 +1,5 @@
 {
+  "did": "did:ethr:eip155-8",
   "name": "Ubiq Network Mainnet",
   "network": "eip155-8",
   "interface": "evm",

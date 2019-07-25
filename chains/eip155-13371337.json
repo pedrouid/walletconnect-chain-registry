@@ -1,4 +1,5 @@
 {
+  "did": "did:ethr:eip155-13371337",
   "name": "PepChain Churchill",
   "network": "eip155-13371337",
   "interface": "evm",

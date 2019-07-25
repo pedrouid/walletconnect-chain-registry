@@ -1,4 +1,5 @@
 {
+  "did": "did:ethr:eip155-18289463",
   "name": "IOLite",
   "network": "eip155-18289463",
   "interface": "evm",

@@ -1,4 +1,5 @@
 {
+  "did": "did:ethr:eip155-246785",
   "name": "ARTIS tau1",
   "network": "eip155-246785",
   "interface": "evm",

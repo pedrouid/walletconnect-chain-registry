@@ -1,4 +1,5 @@
 {
+  "did": "did:ethr:eip155-61",
   "name": "Ethereum Classic Mainnet",
   "network": "eip155-61",
   "interface": "evm",

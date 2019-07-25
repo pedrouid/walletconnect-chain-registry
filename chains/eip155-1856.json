@@ -1,4 +1,5 @@
 {
+  "did": "did:ethr:eip155-1856",
   "name": "Teslafunds",
   "network": "eip155-1856",
   "interface": "evm",

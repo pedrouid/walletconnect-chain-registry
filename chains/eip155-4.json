@@ -1,4 +1,5 @@
 {
+  "did": "did:ethr:eip155-4",
   "name": "Ethereum Testnet Rinkeby",
   "network": "eip155-4",
   "interface": "evm",

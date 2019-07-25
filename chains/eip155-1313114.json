@@ -1,4 +1,5 @@
 {
+  "did": "did:ethr:eip155-1313114",
   "name": "Ether-1",
   "network": "eip155-1313114",
   "interface": "evm",

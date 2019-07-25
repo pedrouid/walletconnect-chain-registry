@@ -1,4 +1,5 @@
 {
+  "did": "did:ethr:eip155-100",
   "name": "xDAI Chain",
   "network": "eip155-100",
   "interface": "evm",

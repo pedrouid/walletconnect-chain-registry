@@ -1,4 +1,5 @@
 {
+  "did": "did:ethr:eip155-11",
   "name": "Metadium Mainnet",
   "network": "eip155-11",
   "interface": "evm",

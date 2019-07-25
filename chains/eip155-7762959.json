@@ -1,4 +1,5 @@
 {
+  "did": "did:ethr:eip155-7762959",
   "name": "Musicoin",
   "network": "eip155-7762959",
   "interface": "evm",
