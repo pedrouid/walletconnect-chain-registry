@@ -1,8 +1,5 @@
 {
   "name": "EtherInc",
-  "rpc": [
-    "https://api.einc.io/jsonrpc/mainnet"
-  ],
   "network": "eip155-101",
   "coins": [
     {

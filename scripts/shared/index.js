@@ -189,5 +189,6 @@ module.exports = {
   getNetworkId,
   getChainId,
   queryMulti,
-  verifyJson
+  verifyJson,
+  sortBy
 }

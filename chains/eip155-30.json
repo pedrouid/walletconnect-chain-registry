@@ -1,9 +1,5 @@
 {
   "name": "RSK Mainnet",
-  "rpc": [
-    "https://public-node.rsk.co",
-    "https://mycrypto.rsk.co"
-  ],
   "network": "eip155-30",
   "coins": [
     {

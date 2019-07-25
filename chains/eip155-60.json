@@ -1,8 +1,5 @@
 {
   "name": "GoChain",
-  "rpc": [
-    "https://rpc.gochain.io"
-  ],
   "network": "eip155-60",
   "coins": [
     {

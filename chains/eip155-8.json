@@ -1,8 +1,5 @@
 {
   "name": "Ubiq Network Mainnet",
-  "rpc": [
-    "https://pyrus2.ubiqscan.io"
-  ],
   "network": "eip155-8",
   "coins": [
     {

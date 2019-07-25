@@ -1,8 +1,5 @@
 {
   "name": "xDAI Chain",
-  "rpc": [
-    "https://dai.poa.network"
-  ],
   "network": "eip155-100",
   "coins": [
     {

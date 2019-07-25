@@ -1,8 +1,5 @@
 {
   "name": "Lightstreams Testnet",
-  "rpc": [
-    "https://node.sirius.lightstreams.io"
-  ],
   "network": "eip155-162",
   "coins": [
     {

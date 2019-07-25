@@ -1,9 +1,5 @@
 {
   "name": "RSK Testnet",
-  "rpc": [
-    "https://public-node.testnet.rsk.co",
-    "https://mycrypto.testnet.rsk.co"
-  ],
   "network": "eip155-31",
   "coins": [
     {

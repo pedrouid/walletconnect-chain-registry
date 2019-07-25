@@ -1,8 +1,5 @@
 {
   "name": "Cosmos Hub",
-  "rpc": [
-    "tcp://0.0.0.0:26657"
-  ],
   "network": "cosmos-hub2",
   "coins": [
     {

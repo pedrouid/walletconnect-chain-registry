@@ -1,6 +1,5 @@
 {
   "name": "Ethereum Classic Testnet",
-  "rpc": [],
   "network": "eip155-62",
   "coins": [
     {

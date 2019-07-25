@@ -1,8 +1,5 @@
 {
   "name": "Musicoin",
-  "rpc": [
-    "https://mewapi.musicoin.tw"
-  ],
   "network": "eip155-7762959",
   "coins": [
     {

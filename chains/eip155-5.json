@@ -1,10 +1,5 @@
 {
   "name": "Ethereum Testnet Görli",
-  "rpc": [
-    "https://rpc.goerli.mudit.blog/",
-    "https://rpc.slock.it/goerli ",
-    "https://goerli.prylabs.net/"
-  ],
   "network": "eip155-5",
   "coins": [
     {

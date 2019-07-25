@@ -1,8 +1,5 @@
 {
   "name": "Atheios",
-  "rpc": [
-    "https://wallet.atheios.com:8797"
-  ],
   "network": "eip155-1620",
   "coins": [
     {

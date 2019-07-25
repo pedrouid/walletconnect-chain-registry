@@ -1,8 +1,5 @@
 {
   "name": "Ethereum Testnet Rinkeby",
-  "rpc": [
-    "https://rinkeby.infura.io/v3/${INFURA_API_KEY}"
-  ],
   "network": "eip155-4",
   "coins": [
     {

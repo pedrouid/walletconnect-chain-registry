@@ -1,8 +1,5 @@
 {
   "name": "ARTIS sigma1",
-  "rpc": [
-    "https://rpc.sigma1.artis.network"
-  ],
   "network": "eip155-246529",
   "coins": [
     {

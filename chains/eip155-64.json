@@ -1,8 +1,5 @@
 {
   "name": "Ellaism",
-  "rpc": [
-    "https://jsonrpc.ellaism.org"
-  ],
   "network": "eip155-64",
   "coins": [
     {

@@ -1,12 +1,14 @@
 const fs = require('fs')
 const path = require('path')
 const {
+  ROOT_DIRECTORY,
   CHAINS_DIRECTORY,
   startSpinner,
   stopSpinner,
   tableLog,
   stat,
-  writeJson
+  writeJson,
+  sortBy
 } = require('./shared')
 
 fs.readdir(CHAINS_DIRECTORY, async function (err, files) {
@@ -50,13 +52,15 @@ fs.readdir(CHAINS_DIRECTORY, async function (err, files) {
     })
   )
 
+  const resultFilePath = path.join(ROOT_DIRECTORY, 'chains.json')
+  const resultJson = sortBy(result, ['network'])
+  await writeJson(resultFilePath, resultJson)
+
   stopSpinner()
 
   tableLog(result)
 
   console.log(
-    `Successfully verified and wrote ${files.length} file${
-      files.length > 1 ? 's' : ''
-    }`
+    `Successfully parsed ${files.length} file${files.length > 1 ? 's' : ''}`
   )
 })

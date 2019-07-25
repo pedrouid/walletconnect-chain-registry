@@ -1,8 +1,5 @@
 {
   "name": "POA Network Core",
-  "rpc": [
-    "https://core.poa.network"
-  ],
   "network": "eip155-99",
   "coins": [
     {
