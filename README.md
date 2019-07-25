@@ -9,7 +9,7 @@ Standarized multi-blockchain registry
 {
   "name": "Cosmos Hub",
   "rpc": [
-    "tcp://0.0.0.0:26657"
+    "http://178.128.246.154:26657"
   ],
   "network": "cosmos-hub2",
   "coins": [
@@ -22,7 +22,7 @@ Standarized multi-blockchain registry
   ],
   "interface": "cosmos",
   "custom": {
-    "node_info": "http://178.128.246.154:1317/node_info",
+    "lcd": "http://178.128.246.154:1317",
     "moniker": "cosmos-do-sentryz1"
   }
 }
