@@ -1,0 +1,20 @@
+{
+  "name": "Akaroma",
+  "endpoints": [
+    "https://remote.akroma.io"
+  ],
+  "network": "eip155-200625",
+  "coins": [
+    {
+      "name": "Akaroma Ether",
+      "symbol": "AKA",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "interface": "evm",
+  "custom": {
+    "chainId": 200625,
+    "networkId": 200625
+  }
+}

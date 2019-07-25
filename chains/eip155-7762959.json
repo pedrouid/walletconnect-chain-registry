@@ -1,0 +1,20 @@
+{
+  "name": "Musicoin",
+  "endpoints": [
+    "https://mewapi.musicoin.tw"
+  ],
+  "network": "eip155-7762959",
+  "coins": [
+    {
+      "name": "Musicoin",
+      "symbol": "MUSIC",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "interface": "evm",
+  "custom": {
+    "chainId": 7762959,
+    "networkId": 7762959
+  }
+}

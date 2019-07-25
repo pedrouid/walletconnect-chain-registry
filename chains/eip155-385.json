@@ -1,0 +1,20 @@
+{
+  "name": "Lisinski",
+  "endpoints": [
+    "https://rpc-bitfalls1.lisinski.online"
+  ],
+  "network": "eip155-385",
+  "coins": [
+    {
+      "name": "Lisinski Ether",
+      "symbol": "LISINSKI",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "interface": "evm",
+  "custom": {
+    "chainId": 385,
+    "networkId": 385
+  }
+}

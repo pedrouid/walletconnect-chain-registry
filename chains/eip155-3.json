@@ -1,0 +1,20 @@
+{
+  "name": "Ethereum Testnet Ropsten",
+  "endpoints": [
+    "https://ropsten.infura.io/v3/${INFURA_API_KEY}"
+  ],
+  "network": "eip155-3",
+  "coins": [
+    {
+      "name": "Ropsten Ether",
+      "symbol": "ROP",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "interface": "evm",
+  "custom": {
+    "chainId": 3,
+    "networkId": 3
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Auxilium Network Mainnet",
+  "endpoints": [
+    "https://rpc.auxilium.global"
+  ],
+  "network": "eip155-28945486",
+  "coins": [
+    {
+      "name": "Auxilium coin",
+      "symbol": "AUX",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "interface": "evm",
+  "custom": {
+    "chainId": 28945486,
+    "networkId": 28945486
+  }
+}

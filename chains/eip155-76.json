@@ -1,0 +1,20 @@
+{
+  "name": "Mix",
+  "endpoints": [
+    "https://rpc2.mix-blockchain.org:8647"
+  ],
+  "network": "eip155-76",
+  "coins": [
+    {
+      "name": "Mix Ether",
+      "symbol": "MIX",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "interface": "evm",
+  "custom": {
+    "chainId": 76,
+    "networkId": 76
+  }
+}

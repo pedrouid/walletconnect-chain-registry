@@ -1,0 +1,20 @@
+{
+  "name": "Ether-1",
+  "endpoints": [
+    "https://rpc.ether1.org"
+  ],
+  "network": "eip155-1313114",
+  "coins": [
+    {
+      "name": "Ether-1 Ether",
+      "symbol": "ETHO",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "interface": "evm",
+  "custom": {
+    "chainId": 1313114,
+    "networkId": 1313114
+  }
+}

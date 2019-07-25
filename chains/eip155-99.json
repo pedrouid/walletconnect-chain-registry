@@ -1,0 +1,20 @@
+{
+  "name": "POA Network Core",
+  "endpoints": [
+    "https://core.poa.network"
+  ],
+  "network": "eip155-99",
+  "coins": [
+    {
+      "name": "POA Network Core Ether",
+      "symbol": "SKL",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "interface": "evm",
+  "custom": {
+    "chainId": 99,
+    "networkId": 99
+  }
+}

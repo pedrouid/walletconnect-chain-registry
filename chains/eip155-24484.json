@@ -1,0 +1,20 @@
+{
+  "name": "Webchain",
+  "endpoints": [
+    "https://node1.webchain.network"
+  ],
+  "network": "eip155-24484",
+  "coins": [
+    {
+      "name": "Webchain Ether",
+      "symbol": "WEB",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "interface": "evm",
+  "custom": {
+    "chainId": 24484,
+    "networkId": 37129
+  }
+}

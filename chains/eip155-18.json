@@ -1,0 +1,20 @@
+{
+  "name": "ThunderCore Testnet",
+  "endpoints": [
+    "https://testnet-rpc.thundercore.com"
+  ],
+  "network": "eip155-18",
+  "coins": [
+    {
+      "name": "ThunderCore Testnet Ether",
+      "symbol": "TST",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "interface": "evm",
+  "custom": {
+    "chainId": 18,
+    "networkId": 18
+  }
+}

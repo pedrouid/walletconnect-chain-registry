@@ -1,0 +1,20 @@
+{
+  "name": "IOLite",
+  "endpoints": [
+    "https://net.iolite.io"
+  ],
+  "network": "eip155-18289463",
+  "coins": [
+    {
+      "name": "IOLite Ether",
+      "symbol": "ILT",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "interface": "evm",
+  "custom": {
+    "chainId": 18289463,
+    "networkId": 18289463
+  }
+}

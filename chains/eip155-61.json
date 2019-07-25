@@ -1,0 +1,20 @@
+{
+  "name": "Ethereum Classic Mainnet",
+  "endpoints": [
+    "https://ethereumclassic.network"
+  ],
+  "network": "eip155-61",
+  "coins": [
+    {
+      "name": "Ethereum Classic Ether",
+      "symbol": "ETC",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "interface": "evm",
+  "custom": {
+    "chainId": 61,
+    "networkId": 1
+  }
+}

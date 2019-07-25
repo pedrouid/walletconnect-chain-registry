@@ -1,0 +1,20 @@
+{
+  "name": "Metadium Testnet",
+  "endpoints": [
+    "https://api.metadium.com/dev"
+  ],
+  "network": "eip155-12",
+  "coins": [
+    {
+      "name": "Metadium Testnet Ether",
+      "symbol": "KAL",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "interface": "evm",
+  "custom": {
+    "chainId": 12,
+    "networkId": 12
+  }
+}

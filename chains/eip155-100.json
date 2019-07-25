@@ -1,0 +1,20 @@
+{
+  "name": "xDAI Chain",
+  "endpoints": [
+    "https://dai.poa.network"
+  ],
+  "network": "eip155-100",
+  "coins": [
+    {
+      "name": "xDAI",
+      "symbol": "xDAI",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "interface": "evm",
+  "custom": {
+    "chainId": 100,
+    "networkId": 100
+  }
+}

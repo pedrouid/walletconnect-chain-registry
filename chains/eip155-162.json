@@ -1,0 +1,20 @@
+{
+  "name": "Lightstreams Testnet",
+  "endpoints": [
+    "https://node.sirius.lightstreams.io"
+  ],
+  "network": "eip155-162",
+  "coins": [
+    {
+      "name": "Lightstreams PHT",
+      "symbol": "PHT",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "interface": "evm",
+  "custom": {
+    "chainId": 162,
+    "networkId": 162
+  }
+}

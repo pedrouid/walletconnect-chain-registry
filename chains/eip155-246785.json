@@ -1,0 +1,20 @@
+{
+  "name": "ARTIS tau1",
+  "endpoints": [
+    "https://rpc.tau1.artis.network"
+  ],
+  "network": "eip155-246785",
+  "coins": [
+    {
+      "name": "ARTIS tau1 Ether",
+      "symbol": "ATS",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "interface": "evm",
+  "custom": {
+    "chainId": 246785,
+    "networkId": 246785
+  }
+}

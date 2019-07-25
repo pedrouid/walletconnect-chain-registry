@@ -1,0 +1,20 @@
+{
+  "name": "Atheios",
+  "endpoints": [
+    "https://wallet.atheios.com:8797"
+  ],
+  "network": "eip155-1620",
+  "coins": [
+    {
+      "name": "Atheios Ether",
+      "symbol": "ATH",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "interface": "evm",
+  "custom": {
+    "chainId": 1620,
+    "networkId": 11235813
+  }
+}

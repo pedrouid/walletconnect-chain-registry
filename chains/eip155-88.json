@@ -1,0 +1,20 @@
+{
+  "name": "TomoChain",
+  "endpoints": [
+    "https://core.tomocoin.io"
+  ],
+  "network": "eip155-88",
+  "coins": [
+    {
+      "name": "TomoChain Ether",
+      "symbol": "TOMO",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "interface": "evm",
+  "custom": {
+    "chainId": 88,
+    "networkId": 88
+  }
+}

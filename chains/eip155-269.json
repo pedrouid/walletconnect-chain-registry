@@ -1,0 +1,20 @@
+{
+  "name": "High Performance Blockchain",
+  "endpoints": [
+    "https://node.hpb.blue"
+  ],
+  "network": "eip155-269",
+  "coins": [
+    {
+      "name": "High Performance Blockchain Ether",
+      "symbol": "HPB",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "interface": "evm",
+  "custom": {
+    "chainId": 269,
+    "networkId": 100
+  }
+}

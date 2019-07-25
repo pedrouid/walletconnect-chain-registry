@@ -1,0 +1,18 @@
+{
+  "name": "Callisto Testnet",
+  "endpoints": [],
+  "network": "eip155-821",
+  "coins": [
+    {
+      "name": "Callisto Testnet Ether",
+      "symbol": "TCLO",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "interface": "evm",
+  "custom": {
+    "chainId": 821,
+    "networkId": 2
+  }
+}

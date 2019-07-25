@@ -1,0 +1,20 @@
+{
+  "name": "EtherInc",
+  "endpoints": [
+    "https://api.einc.io/jsonrpc/mainnet"
+  ],
+  "network": "eip155-101",
+  "coins": [
+    {
+      "name": "EtherInc Ether",
+      "symbol": "ETI",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "interface": "evm",
+  "custom": {
+    "chainId": 101,
+    "networkId": 1
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Callisto Mainnet",
+  "endpoints": [
+    "https://clo-geth.0xinfra.com"
+  ],
+  "network": "eip155-820",
+  "coins": [
+    {
+      "name": "Callisto Mainnet Ether",
+      "symbol": "CLO",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "interface": "evm",
+  "custom": {
+    "chainId": 820,
+    "networkId": 1
+  }
+}

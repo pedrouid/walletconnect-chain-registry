@@ -1,0 +1,20 @@
+{
+  "name": "Teslafunds",
+  "endpoints": [
+    "https://tsfapi.europool.me"
+  ],
+  "network": "eip155-1856",
+  "coins": [
+    {
+      "name": "Teslafunds Ether",
+      "symbol": "TSF",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "interface": "evm",
+  "custom": {
+    "chainId": 1856,
+    "networkId": 1
+  }
+}

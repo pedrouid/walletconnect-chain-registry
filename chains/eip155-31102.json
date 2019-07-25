@@ -1,0 +1,20 @@
+{
+  "name": "Ethersocial Network",
+  "endpoints": [
+    "https://api.esn.gonspool.com"
+  ],
+  "network": "eip155-31102",
+  "coins": [
+    {
+      "name": "Ethersocial Network Ether",
+      "symbol": "ESN",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "interface": "evm",
+  "custom": {
+    "chainId": 31102,
+    "networkId": 1
+  }
+}

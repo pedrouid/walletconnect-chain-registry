@@ -1,0 +1,20 @@
+{
+  "name": "Ethereum Testnet Rinkeby",
+  "endpoints": [
+    "https://rinkeby.infura.io/v3/${INFURA_API_KEY}"
+  ],
+  "network": "eip155-4",
+  "coins": [
+    {
+      "name": "Rinkeby Ether",
+      "symbol": "RIN",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "interface": "evm",
+  "custom": {
+    "chainId": 4,
+    "networkId": 4
+  }
+}
