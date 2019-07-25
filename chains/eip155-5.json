@@ -1,6 +1,6 @@
 {
   "name": "Ethereum Testnet Görli",
-  "endpoints": [
+  "rpc": [
     "https://rpc.goerli.mudit.blog/",
     "https://rpc.slock.it/goerli ",
     "https://goerli.prylabs.net/"

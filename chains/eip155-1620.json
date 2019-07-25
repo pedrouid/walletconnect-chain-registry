@@ -1,6 +1,6 @@
 {
   "name": "Atheios",
-  "endpoints": [
+  "rpc": [
     "https://wallet.atheios.com:8797"
   ],
   "network": "eip155-1620",

@@ -1,6 +1,6 @@
 {
   "name": "EtherGem",
-  "endpoints": [
+  "rpc": [
     "https://jsonrpc.egem.io/custom"
   ],
   "network": "eip155-1987",

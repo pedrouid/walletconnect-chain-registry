@@ -1,6 +1,6 @@
 {
   "name": "Pirl",
-  "endpoints": [
+  "rpc": [
     "https://wallrpc.pirl.io"
   ],
   "network": "eip155-3125659152",

@@ -1,6 +1,6 @@
 {
   "name": "ARTIS sigma1",
-  "endpoints": [
+  "rpc": [
     "https://rpc.sigma1.artis.network"
   ],
   "network": "eip155-246529",

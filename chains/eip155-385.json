@@ -1,6 +1,6 @@
 {
   "name": "Lisinski",
-  "endpoints": [
+  "rpc": [
     "https://rpc-bitfalls1.lisinski.online"
   ],
   "network": "eip155-385",

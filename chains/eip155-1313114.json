@@ -1,6 +1,6 @@
 {
   "name": "Ether-1",
-  "endpoints": [
+  "rpc": [
     "https://rpc.ether1.org"
   ],
   "network": "eip155-1313114",

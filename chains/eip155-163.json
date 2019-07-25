@@ -1,6 +1,6 @@
 {
   "name": "Lightstreams Mainnet",
-  "endpoints": [
+  "rpc": [
     "https://node.mainnet.lightstreams.io"
   ],
   "network": "eip155-163",

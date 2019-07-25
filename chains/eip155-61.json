@@ -1,6 +1,6 @@
 {
   "name": "Ethereum Classic Mainnet",
-  "endpoints": [
+  "rpc": [
     "https://ethereumclassic.network"
   ],
   "network": "eip155-61",

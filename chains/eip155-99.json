@@ -1,6 +1,6 @@
 {
   "name": "POA Network Core",
-  "endpoints": [
+  "rpc": [
     "https://core.poa.network"
   ],
   "network": "eip155-99",

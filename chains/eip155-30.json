@@ -1,6 +1,6 @@
 {
   "name": "RSK Mainnet",
-  "endpoints": [
+  "rpc": [
     "https://public-node.rsk.co",
     "https://mycrypto.rsk.co"
   ],

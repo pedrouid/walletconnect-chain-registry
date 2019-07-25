@@ -1,6 +1,6 @@
 {
   "name": "IPOS Network",
-  "endpoints": [
+  "rpc": [
     "https://rpc.iposlab.com",
     "https://rpc2.iposlab.com"
   ],

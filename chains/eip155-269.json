@@ -1,6 +1,6 @@
 {
   "name": "High Performance Blockchain",
-  "endpoints": [
+  "rpc": [
     "https://node.hpb.blue"
   ],
   "network": "eip155-269",

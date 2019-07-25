@@ -1,6 +1,6 @@
 {
   "name": "ThunderCore Mainnet",
-  "endpoints": [
+  "rpc": [
     "https://mainnet-rpc.thundercore.com"
   ],
   "network": "eip155-108",

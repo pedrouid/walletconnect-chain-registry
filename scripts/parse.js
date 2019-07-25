@@ -27,23 +27,20 @@ fs.readdir(CHAINS_DIRECTORY, async function (err, files) {
       if (fileStat.isFile() && ext === '.json') {
         let json = require(filePath)
 
+        let newCoins = json.coins.map(coin => ({
+          name: coin.name,
+          symbol: coin.symbol,
+          denom: coin.denom,
+          granularity: coin.granularity
+        }))
+
         let newJson = {
           name: json.name,
-          endpoints: json.rpc,
+          rpc: json.endpoints,
           network: json.network,
-          coins: [
-            {
-              name: json.nativeCurrency.name,
-              symbol: json.nativeCurrency.symbol,
-              denom: 'wei',
-              granularity: json.nativeCurrency.decimals
-            }
-          ],
-          interface: 'evm',
-          custom: {
-            chainId: json.chainId,
-            networkId: json.networkId
-          }
+          coins: newCoins,
+          interface: json.interface,
+          custom: json.custom
         }
 
         await writeJson(filePath, newJson)

@@ -1,6 +1,6 @@
 {
   "name": "Ethereum Testnet Kovan",
-  "endpoints": [
+  "rpc": [
     "https://kovan.infura.io/v3/${INFURA_API_KEY}"
   ],
   "network": "eip155-42",

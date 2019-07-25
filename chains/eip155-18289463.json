@@ -1,6 +1,6 @@
 {
   "name": "IOLite",
-  "endpoints": [
+  "rpc": [
     "https://net.iolite.io"
   ],
   "network": "eip155-18289463",

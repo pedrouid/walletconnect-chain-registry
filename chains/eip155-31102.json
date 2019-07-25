@@ -1,6 +1,6 @@
 {
   "name": "Ethersocial Network",
-  "endpoints": [
+  "rpc": [
     "https://api.esn.gonspool.com"
   ],
   "network": "eip155-31102",

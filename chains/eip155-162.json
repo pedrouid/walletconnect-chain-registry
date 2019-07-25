@@ -1,6 +1,6 @@
 {
   "name": "Lightstreams Testnet",
-  "endpoints": [
+  "rpc": [
     "https://node.sirius.lightstreams.io"
   ],
   "network": "eip155-162",

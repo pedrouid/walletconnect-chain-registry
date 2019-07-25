@@ -1,6 +1,6 @@
 {
   "name": "xDAI Chain",
-  "endpoints": [
+  "rpc": [
     "https://dai.poa.network"
   ],
   "network": "eip155-100",

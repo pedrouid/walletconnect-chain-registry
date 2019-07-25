@@ -1,6 +1,6 @@
 {
   "name": "ThunderCore Testnet",
-  "endpoints": [
+  "rpc": [
     "https://testnet-rpc.thundercore.com"
   ],
   "network": "eip155-18",

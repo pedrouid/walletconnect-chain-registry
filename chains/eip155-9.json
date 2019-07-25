@@ -1,6 +1,6 @@
 {
   "name": "Ubiq Network Testnet",
-  "endpoints": [],
+  "rpc": [],
   "network": "eip155-9",
   "coins": [
     {

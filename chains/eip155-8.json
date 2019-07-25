@@ -1,6 +1,6 @@
 {
   "name": "Ubiq Network Mainnet",
-  "endpoints": [
+  "rpc": [
     "https://pyrus2.ubiqscan.io"
   ],
   "network": "eip155-8",

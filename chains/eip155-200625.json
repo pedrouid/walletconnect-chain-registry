@@ -1,6 +1,6 @@
 {
   "name": "Akaroma",
-  "endpoints": [
+  "rpc": [
     "https://remote.akroma.io"
   ],
   "network": "eip155-200625",

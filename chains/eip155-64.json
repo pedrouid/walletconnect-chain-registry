@@ -1,6 +1,6 @@
 {
   "name": "Ellaism",
-  "endpoints": [
+  "rpc": [
     "https://jsonrpc.ellaism.org"
   ],
   "network": "eip155-64",

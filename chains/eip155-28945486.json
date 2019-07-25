@@ -1,6 +1,6 @@
 {
   "name": "Auxilium Network Mainnet",
-  "endpoints": [
+  "rpc": [
     "https://rpc.auxilium.global"
   ],
   "network": "eip155-28945486",

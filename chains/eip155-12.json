@@ -1,6 +1,6 @@
 {
   "name": "Metadium Testnet",
-  "endpoints": [
+  "rpc": [
     "https://api.metadium.com/dev"
   ],
   "network": "eip155-12",

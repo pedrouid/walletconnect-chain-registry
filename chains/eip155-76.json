@@ -1,6 +1,6 @@
 {
   "name": "Mix",
-  "endpoints": [
+  "rpc": [
     "https://rpc2.mix-blockchain.org:8647"
   ],
   "network": "eip155-76",

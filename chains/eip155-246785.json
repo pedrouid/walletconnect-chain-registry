@@ -1,6 +1,6 @@
 {
   "name": "ARTIS tau1",
-  "endpoints": [
+  "rpc": [
     "https://rpc.tau1.artis.network"
   ],
   "network": "eip155-246785",

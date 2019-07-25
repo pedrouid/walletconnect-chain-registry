@@ -1,6 +1,6 @@
 {
   "name": "POA Network Sokol",
-  "endpoints": [
+  "rpc": [
     "https://sokol.poa.network"
   ],
   "network": "eip155-77",

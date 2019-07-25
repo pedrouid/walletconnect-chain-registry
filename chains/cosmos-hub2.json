@@ -1,0 +1,20 @@
+{
+  "name": "Cosmos Hub",
+  "rpc": [
+    "tcp://0.0.0.0:26657"
+  ],
+  "network": "cosmos-hub2",
+  "coins": [
+    {
+      "name": "Atom",
+      "symbol": "ATM",
+      "denom": "uatom",
+      "granularity": 9
+    }
+  ],
+  "interface": "cosmos",
+  "custom": {
+    "node_info": "http://178.128.246.154:1317/node_info",
+    "moniker": "cosmos-do-sentryz1"
+  }
+}

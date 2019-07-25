@@ -1,6 +1,6 @@
 {
   "name": "Expanse Network",
-  "endpoints": [
+  "rpc": [
     "https://node.expanse.tech"
   ],
   "network": "eip155-2",

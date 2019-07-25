@@ -1,6 +1,6 @@
 {
   "name": "RSK Testnet",
-  "endpoints": [
+  "rpc": [
     "https://public-node.testnet.rsk.co",
     "https://mycrypto.testnet.rsk.co"
   ],

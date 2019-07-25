@@ -1,6 +1,6 @@
 {
   "name": "Callisto Testnet",
-  "endpoints": [],
+  "rpc": [],
   "network": "eip155-821",
   "coins": [
     {

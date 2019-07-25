@@ -1,6 +1,6 @@
 {
   "name": "Musicoin",
-  "endpoints": [
+  "rpc": [
     "https://mewapi.musicoin.tw"
   ],
   "network": "eip155-7762959",

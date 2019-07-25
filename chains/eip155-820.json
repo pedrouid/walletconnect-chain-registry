@@ -1,6 +1,6 @@
 {
   "name": "Callisto Mainnet",
-  "endpoints": [
+  "rpc": [
     "https://clo-geth.0xinfra.com"
   ],
   "network": "eip155-820",
