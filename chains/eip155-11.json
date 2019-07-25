@@ -1,5 +1,8 @@
 {
   "name": "Metadium Mainnet",
+  "rpc": [
+    "https://api.metadium.com/prod"
+  ],
   "network": "eip155-11",
   "coins": [
     {

@@ -1,5 +1,9 @@
 {
   "name": "Aquachain",
+  "rpc": [
+    "https://c.onical.org",
+    "https://tx.aquacha.in/api"
+  ],
   "network": "eip155-61717561",
   "coins": [
     {

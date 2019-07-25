@@ -1,5 +1,8 @@
 {
   "name": "Webchain",
+  "rpc": [
+    "https://node1.webchain.network"
+  ],
   "network": "eip155-24484",
   "coins": [
     {

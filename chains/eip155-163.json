@@ -1,5 +1,8 @@
 {
   "name": "Lightstreams Mainnet",
+  "rpc": [
+    "https://node.mainnet.lightstreams.io"
+  ],
   "network": "eip155-163",
   "coins": [
     {

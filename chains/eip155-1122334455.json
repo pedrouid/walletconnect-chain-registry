@@ -1,5 +1,9 @@
 {
   "name": "IPOS Network",
+  "rpc": [
+    "https://rpc.iposlab.com",
+    "https://rpc2.iposlab.com"
+  ],
   "network": "eip155-1122334455",
   "coins": [
     {

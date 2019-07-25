@@ -1,5 +1,8 @@
 {
   "name": "TomoChain",
+  "rpc": [
+    "https://core.tomocoin.io"
+  ],
   "network": "eip155-88",
   "coins": [
     {

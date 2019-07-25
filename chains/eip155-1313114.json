@@ -1,5 +1,8 @@
 {
   "name": "Ether-1",
+  "rpc": [
+    "https://rpc.ether1.org"
+  ],
   "network": "eip155-1313114",
   "coins": [
     {

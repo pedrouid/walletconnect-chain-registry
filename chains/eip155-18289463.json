@@ -1,5 +1,8 @@
 {
   "name": "IOLite",
+  "rpc": [
+    "https://net.iolite.io"
+  ],
   "network": "eip155-18289463",
   "coins": [
     {

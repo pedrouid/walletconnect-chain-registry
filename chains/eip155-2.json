@@ -1,5 +1,8 @@
 {
   "name": "Expanse Network",
+  "rpc": [
+    "https://node.expanse.tech"
+  ],
   "network": "eip155-2",
   "coins": [
     {

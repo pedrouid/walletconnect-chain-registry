@@ -1,5 +1,8 @@
 {
   "name": "Ethereum Classic Mainnet",
+  "rpc": [
+    "https://ethereumclassic.network"
+  ],
   "network": "eip155-61",
   "coins": [
     {

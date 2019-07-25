@@ -1,5 +1,8 @@
 {
   "name": "EtherGem",
+  "rpc": [
+    "https://jsonrpc.egem.io/custom"
+  ],
   "network": "eip155-1987",
   "coins": [
     {

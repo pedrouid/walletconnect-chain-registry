@@ -1,5 +1,8 @@
 {
   "name": "Teslafunds",
+  "rpc": [
+    "https://tsfapi.europool.me"
+  ],
   "network": "eip155-1856",
   "coins": [
     {

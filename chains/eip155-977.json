@@ -1,5 +1,9 @@
 {
   "name": "Nepal Blockchain Network",
+  "rpc": [
+    "https://api.nepalblockchain.dev",
+    "https://api.nepalblockchain.network"
+  ],
   "network": "eip155-977",
   "coins": [
     {

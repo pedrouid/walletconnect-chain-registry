@@ -38,7 +38,7 @@ fs.readdir(CHAINS_DIRECTORY, async function (err, files) {
 
         let newJson = {
           name: json.name,
-          rpc: json.endpoints,
+          rpc: json.rpc,
           network: json.network,
           coins: newCoins,
           interface: json.interface,

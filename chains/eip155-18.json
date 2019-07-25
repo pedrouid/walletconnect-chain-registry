@@ -1,5 +1,8 @@
 {
   "name": "ThunderCore Testnet",
+  "rpc": [
+    "https://testnet-rpc.thundercore.com"
+  ],
   "network": "eip155-18",
   "coins": [
     {

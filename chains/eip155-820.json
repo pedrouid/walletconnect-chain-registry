@@ -1,5 +1,8 @@
 {
   "name": "Callisto Mainnet",
+  "rpc": [
+    "https://clo-geth.0xinfra.com"
+  ],
   "network": "eip155-820",
   "coins": [
     {

@@ -1,5 +1,8 @@
 {
   "name": "Auxilium Network Mainnet",
+  "rpc": [
+    "https://rpc.auxilium.global"
+  ],
   "network": "eip155-28945486",
   "coins": [
     {

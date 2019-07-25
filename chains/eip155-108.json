@@ -1,5 +1,8 @@
 {
   "name": "ThunderCore Mainnet",
+  "rpc": [
+    "https://mainnet-rpc.thundercore.com"
+  ],
   "network": "eip155-108",
   "coins": [
     {

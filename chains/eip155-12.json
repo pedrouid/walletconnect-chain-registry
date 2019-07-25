@@ -1,5 +1,8 @@
 {
   "name": "Metadium Testnet",
+  "rpc": [
+    "https://api.metadium.com/dev"
+  ],
   "network": "eip155-12",
   "coins": [
     {

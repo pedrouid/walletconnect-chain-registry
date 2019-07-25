@@ -1,5 +1,6 @@
 {
   "name": "Ethereum Classic Testnet Kotti",
+  "rpc": [],
   "network": "eip155-6",
   "coins": [
     {
