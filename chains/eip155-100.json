@@ -12,7 +12,7 @@
     }
   ],
   "rpc": [
-    "https://dai.poa.network"
+    "https://rpc.gnosischain.com"
   ],
   "custom": {
     "chainId": 100,
